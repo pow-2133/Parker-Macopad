@@ -8,7 +8,7 @@ class Keyboard(KMKKeyboard):
     def __init__(self):
         super().__init__()
 
-        # 4 direct pins (each switch goes to GND)
+        # 4 direct pins (switches wired to GND)
         self.pins = (
             board.GP26,  # SW1
             board.GP27,  # SW2
@@ -16,13 +16,13 @@ class Keyboard(KMKKeyboard):
             board.GP29,  # SW4
         )
 
-        # Map 4 physical keys to 4 logical positions
+        # Map each physical key to a logical position
         self.coord_mapping = [0, 1, 2, 3]
 
-        # 2x SK6812 MINI (NeoPixel-compatible)
+        # SK6812 MINI LEDs (NeoPixel compatible)
         rgb = RGB(
-            pixel_pin=board.GP6,   # LED data line
-            num_pixels=2,          # D1 + D2
-            val_default=60,        # brightness (0-255)
+            pixel_pin=board.GP6,  # LED data pin
+            num_pixels=2,         # two LEDs
+            val_default=60        # brightness
         )
         self.extensions.append(rgb)
