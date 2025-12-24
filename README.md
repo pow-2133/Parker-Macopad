@@ -1,5 +1,5 @@
 # Parker Macropad
-Finished your macropad? Congrats! This is my custom macropad project.
+ This is my custom macropad project taht i created from the hack.club
 
 ![Parker Macropad Case](./images/case.png)
 
@@ -7,7 +7,7 @@ Finished your macropad? Congrats! This is my custom macropad project.
 
 ### Inspiration
 
-The **Parker Macropad** is a compact 4-key macropad built around the XIAO RP2040.  
+The ** Macropad** is a compact 4-key macropad built around the XIAO RP2040.  
 The goal was to design a clean, minimal macropad with fully custom hardware, including the PCB and enclosure.
 
 ---
