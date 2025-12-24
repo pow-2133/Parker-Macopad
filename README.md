@@ -1,5 +1,5 @@
 # Parker Macropad
- This is my custom macropad project taht i created from the hack.club
+ This is my custom macropad project that I created from the hack.club!
 
 ![Parker Macropad Case](./images/case.png)
 
